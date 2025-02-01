@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    background-image: url("https://img.freepik.com/free-psd/3d-rendering-questions-background_23-2151455632.jpg?t=st=1736168714~exp=1736172314~hmac=23345d10b1da63fc86d9ce4a3430e20a640453b3ae2a114412a0e3a9639ee4d7&w=1060"),url("paper.gif");
+    padding: 20px;
+}
+
+.quiz-container {
+    background: rgb(125, 170, 255);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    margin: auto;
+}
+
+.hidden {
+    display: none;
+}
+
+input {
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+    padding: 8px;
+}
+
+input:hover{
+    background-color: #93989d;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#score {
+    font-weight: bold;
+    margin-top: 10px;
+}
